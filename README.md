@@ -18,14 +18,25 @@ docker-compose –version
 
 ####################################################################
 docker compose up
+
 docker-compose up -f docker-compose.yml web
+
 docker-compose images
+
 docker-compose ps
+
 docker-compose up -d
+
 docker-compose down
+
 docker-compose start service_name
+
 docker-compose stop service_name
+
 docker-compose up -d --scale service=5
+
 docker-compose up -f service_name
+
 docker-compose logs -f service_name
+
 docker-compose rm service_name
